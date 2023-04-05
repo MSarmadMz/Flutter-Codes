@@ -1,0 +1,28 @@
+Q: 1 Change the primary color to grey?
+CODE:
+
+  primarySwatch: Colors.grey,
+      ),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
+}
+
+
+Q 2. Change the text to as shown in pic above.
+Code:
+const Text(
+              'Even Counter',
+           
+3. Change the functionality of the add button to add 2 with each click.
+Code:
+
+class _MyHomePageState extends State<MyHomePage> {
+  int _counter=0;
+
+  void _incrementCounter() {
+    setState(() {
+      _counter = _counter + 2;
+    });
+
+
